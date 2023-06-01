@@ -16,7 +16,7 @@ function Hero() {
           delay: 0.6,
         }}
       >
-        Hello, It's me
+        Hello, It&apos;s me
       </motion.h1>
       <motion.h2
         className="hero-title-large"
@@ -40,7 +40,7 @@ function Hero() {
           delay: 1.05,
         }}
       >
-        <span> And I'm a </span>
+        <span> And I&apos;m a </span>
         <TypeAnimation 
           sequence={[
             'Fullstack Developer.',
@@ -68,14 +68,14 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I'm a software engineer with expertise in creating top-notch
+        I&apos;m a software engineer with expertise in creating top-notch
         digital experiences. My current focus is on developing products that are
         accessible and centered around user needs, as part of the team at&nbsp;
         {/* <Link href="https://rapidops.com" target="_blank" className="link">
           Rapidops.
         </Link> */}
       </motion.p>
-      <motion.div
+      {/* <motion.div
         className="hero-button"
         initial={{ opacity: 0, y: 5 }}
         animate={{ opacity: 1, y: 0 }}
@@ -84,12 +84,12 @@ function Hero() {
           ease: "easeInOut",
           delay: 1.65,
         }}
-      >
+      > */}
         {/* <Button
           text="Check out my course"
           link="https://youtube.com/kishansheth21"
         /> */}
-      </motion.div>
+      {/* </motion.div> */}
     </div>
   );
 }
