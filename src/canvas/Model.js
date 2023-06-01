@@ -40,11 +40,11 @@ const Cubes = (props) => {
 const Model = () => {
   
   return (
-    <Canvas dpr={[1, 2]} shadows camera={{ fov: 35 }} style={{ position: 'absolute', left: 0,  top:60, opacity:0.15 }}>
+    <Canvas dpr={[1, 2]} shadows camera={{ fov: 35 }} style={{ position: 'absolute', left: 0,  top:60, opacity:0.15, zIndex: 0 }}>
       <directionalLight position={[-10, 10, 5]} intensity={40} color={"#0400ff"}/>
       <directionalLight position={[10, 10, 5]} intensity={50} color={"#ff5100"}/>
       <PresentationControls speed={1.5}  zoom={1.2} polar={[-0.1, Math.PI / 4]}>
-          <Cubes  />
+          <Cubes />
       </PresentationControls>
     </Canvas>
   );
