@@ -8,7 +8,7 @@ const Cubes = (props) => {
   const { camera } = useThree();
   const { scene } = useGLTF('/3 cubes.gltf');
 
-  let cubeScale = 0.4;
+  let cubeScale = 0.3;
 
   // useLayoutEffect(() => {
   //   const handleResize = () => {
@@ -34,16 +34,16 @@ const Cubes = (props) => {
   });
 
   
-  return <primitive ref={modelRef}  object={scene} scale={cubeScale} {...props} />;
+  return <primitive ref={modelRef}  object={scene} scale={cubeScale} position={[0,0.2,0]} {...props} />;
 };
 
 const Model = () => {
   
   return (
-    <Canvas dpr={[1, 2]} shadows camera={{ fov: 45 }} style={{ position: 'absolute', left: 0,  top:0, opacity:0.2 }}>
+    <Canvas dpr={[1, 2]} shadows camera={{ fov: 35 }} style={{ position: 'absolute', left: 0,  top:60, opacity:0.15 }}>
       <directionalLight position={[-10, 10, 5]} intensity={40} color={"#0400ff"}/>
       <directionalLight position={[10, 10, 5]} intensity={50} color={"#ff5100"}/>
-      <PresentationControls speed={1.5} global zoom={1.2} polar={[-0.1, Math.PI / 4]}>
+      <PresentationControls speed={1.5}  zoom={1.2} polar={[-0.1, Math.PI / 4]}>
           <Cubes  />
       </PresentationControls>
     </Canvas>
