@@ -62,7 +62,7 @@ function Navbar() {
             ease: "easeInOut",
           }}
         >
-          <Link href="kishansheth.com">
+          <Link href="https://softc.vercel.app">
             <Logo />
           </Link>
         </motion.div>

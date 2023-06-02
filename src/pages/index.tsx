@@ -18,13 +18,13 @@ function Index() {
 
   const handleLoaderLoaded = () => {
     setIsLoading(false);
-    setTimeout(() => setShowContent(true), 450);
+    setTimeout(() => setShowContent(true), 950);
   };
 
   return (
     <div className="app">
       <Head>
-        <title>Rajeev R</title>
+        <title>Softc Dev</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       {showContent && (
@@ -37,8 +37,8 @@ function Index() {
             <Hero />
             <ThreeModel />
             {/* <About /> */}
-            <Experience />
-            <Projects />
+            {/* <Experience /> */}
+            {/* <Projects /> */}
             <Contact />
           </main>
           <Footer />
