@@ -14,7 +14,7 @@ function Loader({ isLoading, setIsLoading }: any) {
       {isLoading && (<>
         <motion.div
           className="loader"
-          exit={{ scale: 0.1 }}
+          exit={{ scale: 0 }}
           key="motiondivleave"
           transition={{
             duration: 1,

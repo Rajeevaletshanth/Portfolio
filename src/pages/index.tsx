@@ -37,8 +37,8 @@ function Index() {
             <Hero />
             <ThreeModel />
             {/* <About /> */}
-            {/* <Experience /> */}
-            {/* <Projects /> */}
+            <Experience />
+            <Projects />
             <Contact />
           </main>
           <Footer />
