@@ -1,5 +1,9 @@
 .about {
   margin: 15rem 0;
+  // text-align: center;
+  // align-items: center;
+  // justify-content: center;
+  // max-width: 700px;
   .title {
     font-family: var(--raleway);
     color: var(--lightest-slate);
@@ -37,7 +41,7 @@
       &-text {
         color: var(--slate);
         margin-right: 10%;
-        font-size: var(--tlarge);
+        font-size: var(--tbase);
         letter-spacing: 0.07rem;
         line-height: 1.6rem;
         font-weight: 500;
@@ -88,7 +92,7 @@
         position: absolute;
         height: 350px;
         width: 350px;
-        background-color: #ff3c0021;
+        background-color: #ff3c0000;
         border-radius: 0.2rem;
       }
       .overlay-border {
@@ -160,6 +164,7 @@
       &-info {
         &-text {
           margin-right: 0;
+          font-size: var(--tsm);
         }
       }
       display: flex;

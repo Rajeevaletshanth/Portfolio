@@ -68,9 +68,13 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a software engineer with expertise in creating top-notch
+        {/* I&apos;m a software engineer with expertise in creating top-notch
         digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
+        accessible and centered around user needs, as part of the team at&nbsp; */}
+        I&apos;m a software engineer with 2 years of experience in React, Node, and AWS. 
+        I develop web applications, harnessing the power of cloud technologies for 
+        scalability. Additionally, I have a knack for 3D modeling and graphics design, 
+        crafting visually captivating experiences.
         {/* <Link href="https://rapidops.com" target="_blank" className="link">
           Rapidops.
         </Link> */}

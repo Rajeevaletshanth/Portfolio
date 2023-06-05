@@ -14,65 +14,29 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "Rapidops",
-      role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
-      start: "January 2021",
-      end: "Present",
+      name: "LTW Technologies",
+      role: "Software Engineer",
+      url: "https://www.ltwtech.it/",
+      start: "May 2022",
+      end: "May 2023",
       shortDescription: [
-        "I had experience working on a large codebase utilizing Kibana and Elasticsearch.",
-        "Throughout my work, I've utilized various MERN stack technologies, including React, Redux, TypeScript, Node.js, Hapi, and Elasticsearch, among others.",
-        "I've also managed a small team that includes Frontend Developers, Backend Developers, and UI/UX Developers.",
-        "Additionally, I've represented the company in client meetings, communicating effectively on their behalf.",
+        "In my role, I have extensively utilized MERN stack technologies such as React, Redux, TypeScript, and Node.js. I have successfully deployed applications on AWS cloud servers and implemented containerization using Docker, ensuring efficient and scalable solutions.",
+        "I have effectively managed a small, cross-functional team consisting of Frontend Developers, Backend Developers, and UI/UX Developers. I have fostered collaboration, set clear goals, and guided the team to deliver high-quality projects on time.",
+        "Furthermore, I have represented the company in client meetings, demonstrating excellent communication skills. I have effectively communicated project requirements, provided updates on progress, and ensured client satisfaction by understanding their needs and aligning them with the company's capabilities.",
       ],
     },
     {
-      name: "Youtube",
-      role: "Content Creator",
-      url: "https://www.youtube.com/kishansheth21",
-      start: "April 2021",
-      end: "Present",
+      name: "TransformationPlus Pty Limited",
+      role: "Software Engineer - Intern",
+      url: "https://transformationplus.com/",
+      start: "August 2021",
+      end: "March 2022",
       shortDescription: [
-        "Upon graduating in 2021, I began creating content on YouTube, with the aim of enhancing my skills and working with the latest technologies, specifically React and Node.",
-        "Over time, I have developed and shared over 50 projects using React on my channel.",
-        "As a result, my channel has gained a substantial following, with over 11,000 subscribers to date. I have also had the pleasure of collaborating with various brands throughout my journey.",
+        "During my internship at XYZ Company, I extensively worked with PHP, utilizing its frameworks and libraries to develop robust web applications. I gained hands-on experience with technologies like Laravel, implementing backend functionalities and database management.",
+        "As an intern, I collaborated with the development team, assisting both frontend and backend developers in various projects. I actively participated in code reviews and bug fixing, contributing to the overall quality and performance of the applications.",
+        "Additionally, I had the opportunity to support the team in client meetings, where I effectively communicated project progress and requirements. I demonstrated a strong understanding of PHP development principles and effectively contributed to the successful completion of client projects.",
       ],
-    },
-    {
-      name: "ACES",
-      role: "President",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "November 2020",
-      shortDescription: [
-        "As the elected President of the ACES Departmental Club, I successfully led a team of board members and executive committee members to organize and execute multiple events throughout the year.",
-        "Additionally, I secured sponsorships from reputable brands to support our events.",
-        "Overall, it was a rewarding experience that allowed me to develop my leadership skills while contributing positively to the growth of the organization.",
-      ],
-    },
-    {
-      name: "ISTE",
-      role: "Web Developer",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "November 2020",
-      shortDescription: [
-        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-      ],
-    },
-    {
-      name: "Shashaan",
-      role: "Founder",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2018",
-      end: "November 2021",
-      shortDescription: [
-        "While still a student, I founded a web hosting company that offered affordable hosting services.",
-        "With over 300 customers, the business thrived until I graduated and sold it to another company.",
-      ],
-    },
+    }
   ];
   return (
     <motion.div
@@ -88,7 +52,7 @@ function Experience() {
       }}
     >
       <div className="title">
-        <h2>Where I&apos;ve Worked</h2>
+        <h2>Experience</h2>
       </div>
       <div className="container">
         <ul className="exp-slider">

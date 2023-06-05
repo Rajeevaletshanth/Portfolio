@@ -1,6 +1,6 @@
 .experience {
   margin: 15rem auto;
-  max-width: 700px;
+  // max-width: 700px;
   .title {
     font-family: var(--raleway);
     color: var(--lightest-slate);
@@ -29,7 +29,7 @@
   }
   .container {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 30% 70%;
     gap: 1rem;
     .exp-slider {
       list-style-type: none;
@@ -64,8 +64,8 @@
           justify-content: center;
           align-items: center;
           color: var(--slate);
-          font-family: var(--fira-code);
-          font-size: var(--tsm1);
+          font-family: var(--raleway);
+          font-size: var(--tsm3);
         }
         &:hover {
           background-color: var(--light-navy);
