@@ -39,7 +39,7 @@ function Index() {
             {/* <About /> */}
             {/* <Experience /> */}
             {/* <Projects /> */}
-            {/* <Contact /> */}
+            <Contact />
           </main>
           <Footer />
         </>
