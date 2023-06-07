@@ -1,0 +1,19 @@
+.second-btn {
+    color: var(--theme-color);
+    padding: 0.75em 1em;
+    text-decoration: none;
+    border: 1px solid var(--theme-color);
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: var(--tsm3);
+    font-weight: 800;
+    outline: none;
+    float: right;
+    &:hover,
+    &:focus {
+        color: var(--background-color);
+      background-color: var(--theme-color);
+    //   background-color: var(--lightest-navy);
+    }
+  }
