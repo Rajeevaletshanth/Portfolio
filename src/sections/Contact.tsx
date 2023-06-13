@@ -52,7 +52,7 @@ const Contact = () => {
       <h2 className="contact-title">What&apos;s Next?</h2>
       <h2 className="contact-sub-title">Get In Touch</h2>
       <p className="contact-text">
-        Looking for a developer? Free free to contact me.
+        Looking for a developer? Feel free to contact me.
       </p>
       <div className="contact-cta">
         {/* <Button link="mailto:rajeev.ramachandran1511@gmail.com" text="Say Hello" /> */}
