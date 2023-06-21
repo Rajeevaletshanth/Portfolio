@@ -27,7 +27,7 @@ function Index() {
         <title>Softc Dev</title>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
-      {showContent && (
+      {/* {showContent && ( */}
         <>
           <Navbar />
           <SocialIcons />
@@ -43,8 +43,8 @@ function Index() {
           </main>
           <Footer />
         </>
-      )}
-      <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} />
+      {/* )}
+      <Loader isLoading={isLoading} setIsLoading={handleLoaderLoaded} /> */}
     </div>
   );
 }
