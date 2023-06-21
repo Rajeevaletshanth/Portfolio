@@ -113,7 +113,7 @@ function Navbar() {
               </motion.li>
             ))}
           </ul>
-          <motion.div
+          {/* <motion.div
             className="nav-items-button"
             initial={{ opacity: 0, y: -25 }}
             animate={{ opacity: 1, y: 0 }}
@@ -122,9 +122,9 @@ function Navbar() {
               ease: "easeInOut",
               delay: 0.6,
             }}
-          >
-            <Button text="Resume" link="/resume.pdf" />
-          </motion.div>
+          > */}
+            {/* <Button text="Resume" link="/resume.pdf" /> */}
+          {/* </motion.div> */}
         </div>
       </div>
     </nav>
